@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <div style="text-align:right"><a href="index.html">Google search</a></div>
+      <div style="color:#e11517;font-size:20px" class="advbar">Advanced Search</div>
+      <hr>
+    <div class="advdiv">
+      <p>Find pages with... </p>
+        <form action="https://www.google.com/search" class="advform">
+            <label class="advlabel">all these words: </label><input type="text" name="as_q" value="" class="advinput" placeholder="Type the important words: tri-colour rat terrier"><br>
+            <label class="advlabel">this exact word or phrase: </label><input type="text" name="as_epq" value="" class="advinput" placeholder='Put exact words in quotes: "rat terrier"'><br>
+            <label class="advlabel">any of these words: </label><input type="text" name="as_oq" value="" class="advinput" placeholder="Type OR between all the words you want: miniature OR standard"><br>
+            <label class="advlabel">none of these words: </label><input type="text" name="as_eq" value="" class="advinput" placeholder='Put a minus sign just before words that you don&apos;t want: -rodent, -"Jack Russell"'><br>
+            <label class="advlabel"></label><div class="advdiv3"><input type="submit" value="Advanced Search" class="advsearch"></div>
+        </form>
+      </div>
+    </body>
+</html>
